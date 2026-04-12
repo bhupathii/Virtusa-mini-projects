@@ -6,7 +6,7 @@ A small collection of mini projects built during my Virtusa training. Each proje
 
 ## What's Inside
 
-### 🐍 Python — OPS-Bot (Security Log Analyzer)
+###Python — OPS-Bot (Security Log Analyzer)
 
 **Files:** `OPS-Bot.py`, `generate-log.py`
 
