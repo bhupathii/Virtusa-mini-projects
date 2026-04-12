@@ -1,0 +1,20 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Generated output files (not source code)
+Python Project/server.log
+Python Project/security_alert_*.txt
+
+# Java compiled output
+*.class
+*.jar
+out/
+
+# IDE / editor config
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
