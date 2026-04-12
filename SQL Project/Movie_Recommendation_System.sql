@@ -28,7 +28,7 @@ CREATE TABLE Ratings (
 );
 -- keeps track of when a user watched a movie
 CREATE TABLE Watch_History (
-    history_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    history_id INT PRIMARY KEY AUTO_INCREMENT,
     user_id INT,
     movie_id INT,
     watch_date DATE,

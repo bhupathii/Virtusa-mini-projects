@@ -46,7 +46,7 @@ OpsBot done. Check the alert file for details.
 
 ---
 
-### ☕ Java — Password Validator
+### Java — Password Validator
 
 **File:** `PasswordValidator.java`
 
@@ -85,11 +85,11 @@ Enter a new password: Secure99
 
 ---
 
-### 🗃️ SQL — Movie Recommendation & Rating System
+### SQL — Movie Recommendation & Rating System
 
 **File:** `Movie_Recommendation_System.sql`
 
-A SQL mini-project that models a simple movie platform — users, movies, ratings, and watch history. Written for SQLite, it demonstrates joins, aggregations, subqueries, and a basic collaborative-filtering recommendation query.
+A SQL mini-project that models a simple movie platform — users, movies, ratings, and watch history. Written for MySQL, it demonstrates joins, aggregations, subqueries, and a basic collaborative-filtering recommendation query.
 
 **Schema:**
 
@@ -107,9 +107,9 @@ A SQL mini-project that models a simple movie platform — users, movies, rating
 - **User activity** — how many movies each user has rated and their average score
 - **Personalized recommendations** — suggests movies a user hasn't seen yet, based on what similar users liked
 
-**Run it in SQLite:**
+**Run it in MySQL:**
 ```bash
-sqlite3 movies.db < Movie_Recommendation_System.sql
+mysql -u root -p < Movie_Recommendation_System.sql
 ```
 
 ---
@@ -120,7 +120,7 @@ sqlite3 movies.db < Movie_Recommendation_System.sql
 |---|---|---|
 | OPS-Bot | Python 3 | File I/O, string parsing, dictionaries, `os`, `datetime` |
 | Password Validator | Java | Loops, string methods, Scanner, input validation |
-| Movie System | SQL (SQLite) | Joins, GROUP BY, HAVING, subqueries, foreign keys |
+| Movie System | SQL (MySQL) | Joins, GROUP BY, HAVING, subqueries, foreign keys |
 
 ---
 
