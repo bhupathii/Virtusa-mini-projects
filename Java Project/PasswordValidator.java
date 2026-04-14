@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 public class PasswordValidator {
     public static List<String> validate(String password) {
         List<String> failures = new ArrayList<>();
@@ -30,7 +29,6 @@ public class PasswordValidator {
         }
         return failures;
     }
-
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             boolean isValid = false;
