@@ -18,10 +18,6 @@ OPS-Bot is a lightweight command-line tool that scans a server log file and pull
 
 **Run it:**
 ```bash
-# Step 1 — generate the log
-python3 generate-log.py
-
-# Step 2 — run the analyzer
 python3 OPS-Bot.py
 ```
 

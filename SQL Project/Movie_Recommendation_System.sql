@@ -1,8 +1,6 @@
 -- Movie Recommendation & Rating Analysis System
 -- Mini project to practice SQL joins, aggregations and subqueries
--- -----------------------------------------------
 -- SECTION 1: Creating the tables
--- -----------------------------------------------
 -- basic user info
 CREATE TABLE Users (
     user_id INT PRIMARY KEY,
@@ -35,9 +33,7 @@ CREATE TABLE Watch_History (
     FOREIGN KEY (user_id) REFERENCES Users(user_id),
     FOREIGN KEY (movie_id) REFERENCES Movies(movie_id)
 );
--- -----------------------------------------------
 -- SECTION 2: Sample Data
--- -----------------------------------------------
 -- users from different cities across India
 INSERT INTO Users (user_id, name, age, city) VALUES
 (1, 'Aarav Mehta', 23, 'Mumbai'),
@@ -67,9 +63,7 @@ INSERT INTO Watch_History (user_id, movie_id, watch_date) VALUES
 (3, 101, '2025-11-22'), (3, 102, '2025-12-14'),
 (4, 104, '2025-12-09'), (4, 105, '2025-12-28'), (4, 106, '2026-01-15'),
 (5, 102, '2025-11-05'), (5, 101, '2026-01-20');
--- -----------------------------------------------
 -- SECTION 3: Queries
--- -----------------------------------------------
 -- A) top rated movies (avg rating 4 or above)
 SELECT m.title, ROUND(AVG(r.rating), 2) AS avg_rating
 FROM Movies m
